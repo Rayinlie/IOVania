@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Bow4.ogg-afafe113f1eafee972259735c7e86419.oggstr"
+
+[deps]
+
+source_file="res://Assets/Sounds/Effects/Bow4.ogg"
+dest_files=[ "res://.import/Bow4.ogg-afafe113f1eafee972259735c7e86419.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

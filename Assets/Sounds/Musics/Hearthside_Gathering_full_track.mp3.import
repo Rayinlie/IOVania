@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Hearthside_Gathering_full_track.mp3-20ca212c11920ea098b1d0a6b24c30fc.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sounds/Musics/Hearthside_Gathering_full_track.mp3"
+dest_files=[ "res://.import/Hearthside_Gathering_full_track.mp3-20ca212c11920ea098b1d0a6b24c30fc.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

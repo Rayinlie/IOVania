@@ -1,0 +1,207 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Area2D",
+"class": "Arrow",
+"language": "GDScript",
+"path": "res://Player/Scripts/Arrow.gd"
+}, {
+"base": "KinematicBody2D",
+"class": "Boss",
+"language": "GDScript",
+"path": "res://Enemy/Boss.gd"
+}, {
+"base": "Area2D",
+"class": "CharacterAttackArea",
+"language": "GDScript",
+"path": "res://Scripts/Characters/AttackArea.gd"
+}, {
+"base": "Node2D",
+"class": "CharacterStats",
+"language": "GDScript",
+"path": "res://Scripts/Characters/stats.gd"
+}, {
+"base": "Control",
+"class": "Dialog",
+"language": "GDScript",
+"path": "res://Mainframe/dialog.gd"
+}, {
+"base": "KinematicBody2D",
+"class": "Enemy1",
+"language": "GDScript",
+"path": "res://Enemy/Skeleton.gd"
+}, {
+"base": "KinematicBody2D",
+"class": "Enemy2",
+"language": "GDScript",
+"path": "res://Enemy/SkeletonWarrior.gd"
+}, {
+"base": "KinematicBody2D",
+"class": "Enemy3",
+"language": "GDScript",
+"path": "res://Enemy/SkelletonLancer.gd"
+}, {
+"base": "Area2D",
+"class": "Fireball",
+"language": "GDScript",
+"path": "res://Player/Scripts/Fireball.gd"
+}, {
+"base": "Area2D",
+"class": "ImpactWave",
+"language": "GDScript",
+"path": "res://Mainframe/ImpactWave.gd"
+}, {
+"base": "KinematicBody2D",
+"class": "Player",
+"language": "GDScript",
+"path": "res://Player/Scripts/Player.gd"
+}, {
+"base": "Sprite",
+"class": "PlayerTexture",
+"language": "GDScript",
+"path": "res://Player/Scripts/Texture.gd"
+}, {
+"base": "Area2D",
+"class": "Waterball",
+"language": "GDScript",
+"path": "res://Player/Scripts/Waterball.gd"
+}, {
+"base": "TileMap",
+"class": "dentro",
+"language": "GDScript",
+"path": "res://Levels/Dentro.gd"
+}, {
+"base": "Node2D",
+"class": "level1",
+"language": "GDScript",
+"path": "res://Levels/MainLevel.gd"
+} ]
+_global_script_class_icons={
+"Arrow": "",
+"Boss": "",
+"CharacterAttackArea": "",
+"CharacterStats": "",
+"Dialog": "",
+"Enemy1": "",
+"Enemy2": "",
+"Enemy3": "",
+"Fireball": "",
+"ImpactWave": "",
+"Player": "",
+"PlayerTexture": "",
+"Waterball": "",
+"dentro": "",
+"level1": ""
+}
+
+[application]
+
+config/name="IOVaniaFinal"
+run/main_scene="res://Scenes/main.tscn"
+config/icon="res://icon.png"
+
+[display]
+
+window/size/width=384
+window/size/height=192
+window/size/test_width=1152
+window/size/test_height=576
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[input]
+
+MoveLeft={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":0,"physical_scancode":65,"unicode":0,"echo":false,"script":null)
+ ]
+}
+MoveRight={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":0,"physical_scancode":68,"unicode":0,"echo":false,"script":null)
+ ]
+}
+Jump={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":0,"physical_scancode":32,"unicode":0,"echo":false,"script":null)
+ ]
+}
+Interact={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":0,"physical_scancode":69,"unicode":0,"echo":false,"script":null)
+ ]
+}
+Menu={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":0,"physical_scancode":16777217,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777218,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+Shoot={
+"deadzone": 0.5,
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":2,"pressed":false,"doubleclick":false,"script":null)
+ ]
+}
+Attack={
+"deadzone": 0.5,
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":1,"pressed":false,"doubleclick":false,"script":null)
+ ]
+}
+Roll={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":0,"physical_scancode":16777238,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ManaPotion={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":0,"physical_scancode":67,"unicode":0,"echo":false,"script":null)
+ ]
+}
+HealthPotion={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":0,"physical_scancode":81,"unicode":0,"echo":false,"script":null)
+ ]
+}
+Skill1={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":0,"physical_scancode":49,"unicode":0,"echo":false,"script":null)
+ ]
+}
+Skill2={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":0,"physical_scancode":50,"unicode":0,"echo":false,"script":null)
+ ]
+}
+Skill3={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":0,"physical_scancode":51,"unicode":0,"echo":false,"script":null)
+ ]
+}
+Skill4={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":0,"physical_scancode":52,"unicode":0,"echo":false,"script":null)
+ ]
+}
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+quality/driver/driver_name="GLES2"
+vram_compression/import_etc=true
+vram_compression/import_etc2=false
+environment/default_environment="res://default_env.tres"

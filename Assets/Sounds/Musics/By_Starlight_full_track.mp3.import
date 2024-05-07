@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/By_Starlight_full_track.mp3-9dc69a99368d24c2161a13f699e123a3.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sounds/Musics/By_Starlight_full_track.mp3"
+dest_files=[ "res://.import/By_Starlight_full_track.mp3-9dc69a99368d24c2161a13f699e123a3.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

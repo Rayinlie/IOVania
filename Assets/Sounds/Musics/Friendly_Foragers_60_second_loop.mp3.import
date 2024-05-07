@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Friendly_Foragers_60_second_loop.mp3-db6c295efbe0c6bcf1b877231758916b.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sounds/Musics/Friendly_Foragers_60_second_loop.mp3"
+dest_files=[ "res://.import/Friendly_Foragers_60_second_loop.mp3-db6c295efbe0c6bcf1b877231758916b.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

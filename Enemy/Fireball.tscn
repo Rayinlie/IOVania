@@ -1,0 +1,13 @@
+[gd_scene format=2]
+
+[node name="Fireball" type="Area2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 1, 1.00803 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../Sprite")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="VisibilityNotifier2D" type="VisibilityNotifier2D" parent="."]

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Celtic-Sunrise_66_second_loop.mp3-2c811fcc1b54f1229211bd2e6cb9a002.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sounds/Musics/Celtic-Sunrise_66_second_loop.mp3"
+dest_files=[ "res://.import/Celtic-Sunrise_66_second_loop.mp3-2c811fcc1b54f1229211bd2e6cb9a002.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

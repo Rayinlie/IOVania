@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/A_Chilling_Wind_60_second_loop.mp3-18226b4953287e8923e109721d4e91cb.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sounds/Musics/A_Chilling_Wind_60_second_loop.mp3"
+dest_files=[ "res://.import/A_Chilling_Wind_60_second_loop.mp3-18226b4953287e8923e109721d4e91cb.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

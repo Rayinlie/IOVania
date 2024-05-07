@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Dawn-Awakens_full_track.mp3-965c6d1a5ef8f7ee513d96350de266f6.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sounds/Musics/Dawn-Awakens_full_track.mp3"
+dest_files=[ "res://.import/Dawn-Awakens_full_track.mp3-965c6d1a5ef8f7ee513d96350de266f6.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

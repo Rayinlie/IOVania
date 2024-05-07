@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Assets/Forest/Mob/Boar/Idle/Idle-Sheet-export-Back.png" type="Texture" id=1]
+
+[node name="KinematicBody2D" type="KinematicBody2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 0.03, 0.03 )
+texture = ExtResource( 1 )
+hframes = 2
+vframes = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]

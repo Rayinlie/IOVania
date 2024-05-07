@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/corruption.wav-ef7f5bfbcdb501748fb3852f20ca3b6c.sample"
+
+[deps]
+
+source_file="res://Assets/Sounds/Voice/corruption.wav"
+dest_files=[ "res://.import/corruption.wav-ef7f5bfbcdb501748fb3852f20ca3b6c.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
